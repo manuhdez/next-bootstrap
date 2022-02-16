@@ -3,6 +3,7 @@
 
 echo "💅 Linting and formatting..."
 npm run lint:fix
+npm run prettier
 
 echo "🧪 Running unit tests..."
 npm run test:ci

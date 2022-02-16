@@ -1,0 +1,15 @@
+# config files
+next.config.js
+jest.config.js
+next-env.d.ts
+
+# dependencies
+node_modules/
+
+# build and assets
+public/
+.next/
+
+# test config files
+cypress/
+!cypress/integration/
