@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-import '@testing-library/cypress/add-commands';
+import '@testing-library/cypress/add-commands'
 // You can now use all of DOM Testing Library's findBy, findAllBy, queryBy and queryAllBy commands off the global cy object.
 // See the About queries docs for reference. https://testing-library.com/docs/queries/about
 
