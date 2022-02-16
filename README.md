@@ -1,14 +1,15 @@
 This is a [Next.js](https://nextjs.org/) template meant to provide you with a ready-to-code project with all the necessary tools to get you started.
 
-## Features 
+## Features
 - [x] TypeScript support
 - [x] Unit tests with `jest`
 - [x] Extended jest dom assertions with `@testing-library/jest-dom`
 - [x] React component tests with`@testing-library/react`
 - [x] End-to-end testing `cypress` and `@testing-library/cypress`
 - [x] Git hooks support with `husky`
-- [ ] Linting with `eslint`
-- [ ] Automatic formatting with `prettier`
+- [x] Linting with `eslint`
+- [x] Automatic formatting with `prettier`
+- [x] `.editorconfig` file
 - [ ] Commit linting with `commitlint`
 
 ## Unit testing
