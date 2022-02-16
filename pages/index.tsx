@@ -34,7 +34,6 @@ const Home: NextPage = () => {
             <button onClick={decrement}>Decrement</button>
           </div>
         </div>
-
       </main>
 
       <footer className={styles.footer}>
