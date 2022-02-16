@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Page from './index';
+import Page from '../../pages';
 
 describe("index page", () => {
   test("can see the welcome message", () => {
