@@ -18,12 +18,17 @@ describe('App navigation', () => {
   it('can decrement the counter', () => {
     cy.findByText(/count: 0/i).should('exist')
 
+    // increment the counter first
+    cy.findByRole('button', { name: /decrement/i })
+      .click()
+      .click()
+
     // find the decrement button and decrement two times
     cy.findByRole('button', { name: /decrement/i })
       .click()
       .click()
 
-    cy.findByText(/count: -2/i).should('exist')
+    cy.findByText(/count: 0/i).should('exist')
   })
 })
 

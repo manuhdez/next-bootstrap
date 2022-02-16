@@ -2,9 +2,15 @@ import { render, screen } from '@testing-library/react'
 import Page from '../../pages'
 
 describe('index page', () => {
-  test('can see the welcome message', () => {
+  beforeEach(() => {
     render(<Page />)
-    const title = screen.getByRole('heading', { name: /welcome/i })
-    expect(title).toBeInTheDocument()
+  })
+
+  test('can see the welcome message', () => {
+    screen.getByRole('heading', { name: /welcome/i })
+  })
+
+  test('can see the counter', () => {
+    screen.getByText(/count: \d+/i)
   })
 })

@@ -10,8 +10,8 @@ This is a [Next.js](https://nextjs.org/) template meant to provide you with a re
 - [x] Linting with `eslint`
 - [x] Automatic formatting with `prettier`
 - [x] `.editorconfig` file
-- [ ] Commit linting with `commitlint`
-- [ ] Styled components
+- [x] Commit linting with `commitlint`
+- [x] Styled components
 - [ ] Storybook support
 
 ## Unit testing
