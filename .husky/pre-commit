@@ -1,5 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo "💅 Linting and formatting..."
+npm run lint:fix
+
 echo "🧪 Running unit tests..."
 npm run test:ci
