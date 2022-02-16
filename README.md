@@ -11,6 +11,8 @@ This is a [Next.js](https://nextjs.org/) template meant to provide you with a re
 - [x] Automatic formatting with `prettier`
 - [x] `.editorconfig` file
 - [ ] Commit linting with `commitlint`
+- [ ] Styled components
+- [ ] Storybook support
 
 ## Unit testing
 Unit tests are written in TypeScript and run with [Jest](https://jestjs.io/).  

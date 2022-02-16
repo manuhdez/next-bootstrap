@@ -1,9 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "💅 Linting and formatting..."
+echo "\n💅 Linting and formatting...\n"
 npm run lint:fix
 npm run prettier
 
-echo "🧪 Running unit tests..."
+echo "\n🧪 Running unit tests...\n"
 npm run test:ci
