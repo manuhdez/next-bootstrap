@@ -28,5 +28,7 @@ jobs:
         run: npm install
       - name: Run unit tests
         run: npm run test:ci
+      - name: Run Project build
+        run: npm run build
       - name: Run end-to-end tests
         run: npm run e2e
