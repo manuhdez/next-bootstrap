@@ -20,11 +20,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies
-        # uses: actions/setup-node@v2
-        run: npm install
+      - uses: actions/setup-node@v2.5.1
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
       - name: Run unit tests
         run: npm test
       - name: Run end-to-end tests
