@@ -1,3 +1,8 @@
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/manuhdez/next-bootstrap)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/manuhdez/next-bootstrap/main)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/manuhdez/next-bootstrap)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/manuhdez/next-bootstrap)
+
 This is a [Next.js](https://nextjs.org/) template meant to provide you with a ready-to-code project with all the necessary tools to get you started.
 
 ## Features
@@ -12,6 +17,7 @@ This is a [Next.js](https://nextjs.org/) template meant to provide you with a re
 - [x] `.editorconfig` file
 - [x] Commit linting with `commitlint`
 - [x] Styled components
+- [x] GitHub actions
 - [ ] Storybook support
 
 ## Unit testing
