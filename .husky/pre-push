@@ -1,11 +1,11 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "🧪 Running unit tests..."
+echo "\n🧪 Running unit tests...\n"
 npm run test:ci
 
-echo "🧱 Building project for end-to-end testing..."
+echo "\n🧱 Building project for end-to-end testing...\n"
 npm run build
 
-echo "🚀 Running end-to-end tests..."
+echo "\n🚀 Running end-to-end tests...\n"
 npm run e2e
