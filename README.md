@@ -1,5 +1,5 @@
 ![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/manuhdez/next-bootstrap)
-![GitHub branch checks state](https://img.shields.io/github/checks-status/manuhdez/next-bootstrap/main)
+[![Test and Build](https://github.com/manuhdez/next-bootstrap/actions/workflows/test-and-build.yml/badge.svg)](https://github.com/manuhdez/next-bootstrap/actions/workflows/test-and-build.yml)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/manuhdez/next-bootstrap)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/manuhdez/next-bootstrap)
 
