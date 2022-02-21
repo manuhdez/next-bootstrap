@@ -4,6 +4,19 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  width: fit-content;
+  padding: 1.5rem;
+
+  background: #fff;
+
+  @media (prefers-color-scheme: dark) {
+    background: #333;
+    color: #fff;
+  }
 `
 
 const CounterValue = styled.p`
