@@ -18,7 +18,7 @@ This is a [Next.js](https://nextjs.org/) template meant to provide you with a re
 - [x] Commit linting with `commitlint`
 - [x] Styled components
 - [x] GitHub actions
-- [ ] Storybook support
+- [x] Storybook setup
 
 ## Unit testing
 Unit tests are written in TypeScript and run with [Jest](https://jestjs.io/).  
